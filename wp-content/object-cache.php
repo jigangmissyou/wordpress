@@ -331,6 +331,7 @@ class WP_Object_Cache {
 		$redis = array(
 			'host' => '127.0.0.1',
 			'port' => 6379,
+            'auth' => 'xfnhluug4plJXJu6'
 		);
 
 		if ( defined( 'WP_REDIS_BACKEND_HOST' ) && WP_REDIS_BACKEND_HOST ) {
