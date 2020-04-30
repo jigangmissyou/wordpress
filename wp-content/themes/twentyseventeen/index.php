@@ -32,7 +32,14 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php
-			if ( have_posts() ) :
+            $result = wp_cache_get( 'my_result' );
+            var_dump($result);
+            if ( false === $result && have_posts() ) {
+                wp_cache_set( 'my_result', 555);
+            }
+            $result2 = wp_cache_get( 'my_result' );
+            var_dump($result2);
+            if ( have_posts() ) :
 
 				/* Start the Loop */
 				while ( have_posts() ) :

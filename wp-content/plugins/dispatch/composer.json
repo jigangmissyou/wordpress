@@ -1,0 +1,5 @@
+{
+    "require": {
+        "thefold/wordpress-dispatcher": "^2.1"
+    }
+}

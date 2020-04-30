@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6629e5fabb19f6e6505b1a4e441c476a",
+    "packages": [
+        {
+            "name": "thefold/wordpress-dispatcher",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tim-field/wordpress-dispatcher.git",
+                "reference": "9569be19aceb13e5bbba93fd88931a7ddad639c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tim-field/wordpress-dispatcher/zipball/9569be19aceb13e5bbba93fd88931a7ddad639c9",
+                "reference": "9569be19aceb13e5bbba93fd88931a7ddad639c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TheFold\\WordPress\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Field",
+                    "email": "field.tim@gmail.com"
+                }
+            ],
+            "description": "Create URL endpoints within WordPress",
+            "time": "2019-02-13T08:17:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

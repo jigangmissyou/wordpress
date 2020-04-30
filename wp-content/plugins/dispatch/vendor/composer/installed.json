@@ -1,0 +1,40 @@
+[
+    {
+        "name": "thefold/wordpress-dispatcher",
+        "version": "2.1",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tim-field/wordpress-dispatcher.git",
+            "reference": "9569be19aceb13e5bbba93fd88931a7ddad639c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tim-field/wordpress-dispatcher/zipball/9569be19aceb13e5bbba93fd88931a7ddad639c9",
+            "reference": "9569be19aceb13e5bbba93fd88931a7ddad639c9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2019-02-13T08:17:53+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TheFold\\WordPress\\": "/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tim Field",
+                "email": "field.tim@gmail.com"
+            }
+        ],
+        "description": "Create URL endpoints within WordPress"
+    }
+]
